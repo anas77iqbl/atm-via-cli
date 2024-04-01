@@ -34,6 +34,7 @@ if (pinAnswer.pin === myPin) {
         type: "number",
       },
     ]);
+    
 
     if (amountAns.amount >= myBalance) {
       console.log("Enter Valid Amount");
@@ -42,9 +43,9 @@ if (pinAnswer.pin === myPin) {
       console.log((myBalance -= amountAns.amount));
       console.log("Your remaining amount is: " + myBalance);
     }
-  } else {
-    console.log("Your current balance is: " + myBalance);
+  } else {console.log("Your current balance is: " + myBalance);
   }
+
 } else {
   console.log("Incorrect pin code");
 }

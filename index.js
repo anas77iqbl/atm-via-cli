@@ -33,7 +33,7 @@ if (pinAnswer.pin === myPin) {
             console.log("Please Enter amount under your Balance");
         }
         else if (amountAns.amount <= myBalance) {
-            console.log(myBalance -= amountAns.amount);
+            console.log((myBalance -= amountAns.amount));
             console.log("Your remaining amount is: " + myBalance);
         }
     }
